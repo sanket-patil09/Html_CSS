@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog_page</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        .header h1 {
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .navbar {
+            text-align: center;
+        }
+
+        .navbar a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            padding-top: 2px;
+            padding-bottom: 2px;
+
+            h1 {
+                font-weight: bold;
+            }
+        }
+
+
+        .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .post_card {
+            display: grid;
+            grid-template-columns: auto;
+            padding: 20px;
+            box-shadow: #bd4141 0px 1px 3px 0px, #c24848 0px 1px 2px -1px;
+            gap: 10px;
+            border-radius: 10px;
+        }
+
+        .post_grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            column-gap: 30px;
+            row-gap: 30px;
+            padding: 50px;
+        }
+
+        .read_more {
+            text-decoration: none;
+        }
+
+        .read_more:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            background: #000;
+            color: whitesmoke;
+            padding: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>My Blog</h1>
+            <nav class="navbar">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Posts</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to My Blog</h2>
+            <p>Sharing thoughts, stories & ideas</p>
+        </div>
+    </section>
+    <main class="container post_grid">
+        <article class="post_card">
+            <img src="" alt="blog thumbnail" srcset="">
+            <h3>Post Title</h3>
+            <p>By Author At Jan 01 2025</p>
+            <p>Lorem ipsum dolor sit.</p>
+            <a href="#" class="read_more">READ MORE</a>
+        </article>
+        <article class="post_card">
+            <img src="" alt="blog thumbnail" srcset="">
+            <h3>Post Title</h3>
+            <p>By Author At Jan 02 2025</p>
+            <p>Lorem ipsum dolor sit.</p>
+            <a href="#" class="read_more">READ MORE</a>
+        </article>
+        <article class="post_card">
+            <img src="" alt="blog thumbnail" srcset="">
+            <h3>Post Title</h3>
+            <p>By Author At Jan 03 2025</p>
+            <p>Lorem ipsum dolor sit.</p>
+            <a href="#" class="read_more">READ MORE</a>
+        </article>
+    </main>
+
+
+    <footer>&copy; All Rights Revserved</footer>
+</body>
+
+</html>
