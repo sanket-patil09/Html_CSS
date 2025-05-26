@@ -1,6 +1,6 @@
 # Projects On Html And CSS 
-This file contains projects on (html and css) with navigation-bar , some carousel , footer , cards and hovering elements ..
-Here are some of the screenshots of the pages 
+This file contains projects on (html and css) with navigation-bar , some carousel , footer , cards and hovering elements.
+Here are some of the screenshots of the projects 
 
 1.Blog landing page
 <img width="1440" alt="Screenshot 2025-05-26 at 6 21 26 PM" src="https://github.com/user-attachments/assets/0d4641b7-fec0-4e86-9de3-174a576aaa02" />
